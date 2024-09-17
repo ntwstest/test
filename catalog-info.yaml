@@ -3,8 +3,7 @@ kind: Location
 metadata:
   name: generated-b13273dbc9117272ae279f88296716f8015d68b1
   annotations:
-    backstage.io/techdocs-ref: 
-        dir: .
+    backstage.io/techdocs-ref: 'asd'
 
   links:
     - url: https://dashboard.example.com
