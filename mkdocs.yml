@@ -1,1 +1,11 @@
-theme: hello
+site_name: 'example-docs'
+site_description: 'example-docs documentation' # optional
+
+nav:
+  - Home: index.md
+  - Example: example-folder/example.md
+
+plugins:
+  - techdocs-core
+  - kroki:
+      ServerURL: https://hello.azurewebsites.net
