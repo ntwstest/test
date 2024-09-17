@@ -1,14 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: generated-b13273dbc9117272ae279f88296716f8015d68b1
+  namespace: default
   annotations:
+    backstage.io/managed-by-location: url:https://github.com/ntwstest/test/blob/main/catalog-info.yaml
+    backstage.io/managed-by-origin-location: url:https://github.com/ntwstest/test/blob/main/catalog-info.yaml
+    backstage.io/view-url: https://github.com/ntwstest/test/blob/main/catalog-info.yaml
+    backstage.io/edit-url: https://github.com/ntwstest/test/edit/main/catalog-info.yaml
+    backstage.io/source-location: url:https://github.com/ntwstest/test/tree/main/
     backstage.io/techdocs-ref: dir:.
-
-  links:
-    - url: https://dashboard.example.com
-      title: My Dashboard
-      icon: dashboard
+  name: zzgenerated-b13273dbc9117272ae279f88296716f8015d68
+  uid: c2c11dd8-6585-40be-8442-d114995fa671
+  etag: f2eedb0e5bda72a6a132abf08a886abd6a10e1e9
+relations: []
 spec:
   type: url
-  owner: user:default/guest
+  target: https://github.com/ntwstest/test/blob/main/catalog-info.yaml
