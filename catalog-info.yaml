@@ -5,6 +5,11 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: 
         dir: .
+
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
 spec:
   type: url
   owner: user:default/guest
